@@ -1,6 +1,7 @@
 import React from "react";
 import { DownloadPage } from "../../SiteData";
 import Header from "../Header";
+import Footer from "../Footer";
 export default function Download() {
   const handledownload = (e) => {
     e.preventDefault();
@@ -72,6 +73,7 @@ export default function Download() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
