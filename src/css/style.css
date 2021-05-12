@@ -3658,14 +3658,14 @@ ul {
   text-transform: uppercase;
 }
 
-footer div {
+footer a {
   color: #fff;
   text-decoration: none;
   font-size: 14px;
 }
 
-footer div:hover,
-footer div:focus {
+footer a:hover,
+footer a:focus {
   color: #f9a61a;
   text-decoration: none;
 }

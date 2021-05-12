@@ -1,10 +1,5 @@
 import React from "react";
-
-import Nav from "react-bootstrap/Nav";
-import { Link } from "react-router-dom";
-
 import { footer } from "../../SiteData";
-
 export default function Footer() {
   return (
     <div>
@@ -15,11 +10,9 @@ export default function Footer() {
               <div className="sitemap">&nbsp;</div>
               <div className="footer_tle">{footer.sitemap.lable}</div>
               <ul className="listStyle">
-                {footer.sitemap.items.map((item) => (
-                  <li key={item.id}>
-                    <Nav.Link as={Link} key={item.id} to={item.link}>
-                      {item.name}
-                    </Nav.Link>
+                {footer.sitemap.items.map((nav) => (
+                  <li key={nav.id}>
+                    <a href={nav.link}>{nav.name}</a>
                   </li>
                 ))}
               </ul>
@@ -31,9 +24,7 @@ export default function Footer() {
               <ul className="listStyle">
                 {footer.software.items.map((item) => (
                   <li key={item.id}>
-                    <Nav.Link as={Link} key={item.id} to={item.link}>
-                      {item.name}
-                    </Nav.Link>
+                    <a href={item.link}>{item.name}</a>
                   </li>
                 ))}
               </ul>
@@ -45,9 +36,7 @@ export default function Footer() {
               <ul className="listStyle">
                 {footer.hardware.items.map((item) => (
                   <li key={item.id}>
-                    <Nav.Link as={Link} key={item.id} to={item.link}>
-                      {item.name}
-                    </Nav.Link>
+                    <a href={item.link}>{item.name}</a>
                   </li>
                 ))}
               </ul>
