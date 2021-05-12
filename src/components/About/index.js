@@ -1,7 +1,6 @@
 import React from "react";
 import { AboutPage } from "../../SiteData";
 import Header from "../Header";
-import Footer from "../Footer";
 export default function index() {
   return (
     <div>
@@ -24,7 +23,6 @@ export default function index() {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import { ContactPage } from "../../SiteData";
 import Header from "../Header";
-import Footer from "../Footer";
+
 export default function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
@@ -101,7 +101,6 @@ export default function Contact() {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }

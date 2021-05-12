@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../Header";
 import { ServicePage } from "../../SiteData";
-import Footer from "../Footer";
+
 export default function Services() {
   return (
     <div>
@@ -35,7 +35,6 @@ export default function Services() {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }
