@@ -194,11 +194,11 @@ export const footer = {
   sitemap: {
     lable: "SITE MAP",
     items: [
-      { id: 1, name: "Home", link: "/#body" },
-      { id: 2, name: "Services", link: "/services#body" },
-      { id: 3, name: "Download", link: "/download#body" },
-      { id: 4, name: "Contact", link: "/contact#body" },
-      { id: 5, name: "About", link: "/about#body" },
+      { id: 1, name: "Home", link: "/" },
+      { id: 2, name: "Services", link: "/services" },
+      { id: 3, name: "Download", link: "/download" },
+      { id: 4, name: "Contact", link: "/contact" },
+      { id: 5, name: "About", link: "/about" },
     ],
   },
   software: {
