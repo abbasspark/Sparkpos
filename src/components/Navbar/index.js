@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import { Link } from "react-router-dom";
 import { navItems, Brand } from "../../SiteData";
 export default function NavbarControl() {
-  const [state, setstate] = useState();
+  const [state, setstate] = useState(window.location.pathname);
 
   const className = (link) => (link === state ? "active" : "inactive");
   const handleCheck = (e) => {
