@@ -1,4 +1,4 @@
-import salespic from "./images/salespic.jpg";
+import salespic from "./images/posScreen3.png";
 import reportpic from "./images/reportpic.jpg";
 import Restaurantpic from "./images/Restaurantpic.jpg";
 import Funsquare from "./images/Funsquare.png";
