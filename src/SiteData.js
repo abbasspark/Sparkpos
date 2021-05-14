@@ -1,5 +1,5 @@
 import salespic from "./images/posScreen3.png";
-import reportpic from "./images/reportpic.jpg";
+import reportpic from "./images/invoiceList.png";
 import Restaurantpic from "./images/Restaurantpic.jpg";
 import Funsquare from "./images/Funsquare.png";
 import Xtremejump from "./images/Xtremejump.png";
